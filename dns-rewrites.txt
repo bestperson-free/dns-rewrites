@@ -320,5 +320,10 @@
 ||patreon.com^$dnsrewrite=NOERROR;A;62.133.62.97
 ||www.patreon.com^$dnsrewrite=NOERROR;A;62.133.62.97
 
+! Gismeteo
+||gismeteo.ru^$dnsrewrite=NOERROR;A;31.172.76.60
+||gismeteo.ru^$dnsrewrite=NOERROR;A;31.172.76.59
+||gismeteo.ru^$dnsrewrite=NOERROR;A;31.172.76.57
+||gismeteo.ru^$dnsrewrite=NOERROR;A;31.172.76.58
 
 ! End of dns.malw.link DNS rewrites
