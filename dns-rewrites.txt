@@ -1,0 +1,324 @@
+! dns.malw.link: AdGuard Home DNS rewrites
+! Converted from hosts format
+! Last source update: 29 August 2026
+
+! General
+||tracker.openbittorrent.com^$dnsrewrite=NOERROR;A;52.223.13.41
+||test.dns.malw.link^$dnsrewrite=NOERROR;A;185.31.40.18
+||ntc.party^$dnsrewrite=NOERROR;A;130.255.77.28
+||controlplane.tailscale.com^$dnsrewrite=NOERROR;A;103.27.157.38
+||game.clashroyaleapp.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||gamea.clashofclans.com^$dnsrewrite=NOERROR;A;193.23.209.189
+||game.brawlstarsgame.com^$dnsrewrite=NOERROR;A;80.253.249.40
+||game.squadbustersgame.com^$dnsrewrite=NOERROR;A;108.61.167.26
+||game.mocogame.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||d.rutor.info^$dnsrewrite=NOERROR;A;172.64.33.155
+||instagram.com^$dnsrewrite=NOERROR;A;157.240.245.174
+||www.instagram.com^$dnsrewrite=NOERROR;A;157.240.245.174
+||b.i.instagram.com^$dnsrewrite=NOERROR;A;157.240.245.174
+||z-p42-chat-e2ee-ig.facebook.com^$dnsrewrite=NOERROR;A;157.240.245.174
+||help.instagram.com^$dnsrewrite=NOERROR;A;157.240.245.174
+
+
+! OpenAI
+||chatgpt.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||ab.chatgpt.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||auth.openai.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||auth0.openai.com^$dnsrewrite=NOERROR;A;193.233.112.67
+||platform.openai.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||cdn.oaistatic.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||files.oaiusercontent.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||tcr9i.chat.openai.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||webrtc.chatgpt.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||android.chat.openai.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||api.openai.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||operator.chatgpt.com^$dnsrewrite=NOERROR;A;193.233.112.67
+||sora.chatgpt.com^$dnsrewrite=NOERROR;A;193.233.112.67
+||videos.openai.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||ios.chat.openai.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||cdn.platform.openai.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||developers.openai.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||sdmntprukwest.oaiusercontent.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||sdmntpritalynorth.oaiusercontent.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||sdmntprpolandcentral.oaiusercontent.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||sdmntprnortheu.oaiusercontent.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Microsoft
+||copilot.microsoft.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||sydney.bing.com^$dnsrewrite=NOERROR;A;193.233.112.67
+||edgeservices.bing.com^$dnsrewrite=NOERROR;A;193.233.112.67
+||rewards.bing.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||xsts.auth.xboxlive.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||xgpuwebf2p.gssv-play-prod.xboxlive.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||xgpuweb.gssv-play-prod.xboxlive.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Spotify
+||api.spotify.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||login5.spotify.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||encore.scdn.co^$dnsrewrite=NOERROR;A;193.233.112.68
+||gew1-spclient.spotify.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||spclient.wg.spotify.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||api-partner.spotify.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||aet.spotify.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||www.spotify.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||accounts.spotify.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||open.spotify.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||accounts.scdn.co^$dnsrewrite=NOERROR;A;193.233.112.68
+||gew1-dealer.spotify.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||www-growth.scdn.co^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! GitHub Copilot
+||api.github.com^$dnsrewrite=NOERROR;A;103.137.248.179
+||api.individual.githubcopilot.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||proxy.individual.githubcopilot.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! JetBrains
+||datalore.jetbrains.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||plugins.jetbrains.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||download.jetbrains.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||api.jetbrains.ai^$dnsrewrite=NOERROR;A;193.233.112.67
+||account.jetbrains.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! ElevenLabs
+||elevenlabs.io^$dnsrewrite=NOERROR;A;193.233.112.68
+||api.us.elevenlabs.io^$dnsrewrite=NOERROR;A;193.233.112.68
+||elevenreader.io^$dnsrewrite=NOERROR;A;193.233.112.68
+||api.elevenlabs.io^$dnsrewrite=NOERROR;A;193.233.112.68
+||help.elevenlabs.io^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Grok
+||grok.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||accounts.x.ai^$dnsrewrite=NOERROR;A;193.233.112.68
+||assets.grok.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Tidal
+||api.tidal.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||listen.tidal.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||login.tidal.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||auth.tidal.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||link.tidal.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||dd.tidal.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||resources.tidal.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||images.tidal.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||geolocation.onetrust.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||api.squareup.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||api-global.squareup.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Supercell
+||cdn.id.supercell.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||security.id.supercell.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||accounts.supercell.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||game-assets.clashroyaleapp.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||game-assets.clashofclans.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||clashofclans.inbox.supercell.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||game-assets.brawlstarsgame.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||store.supercell.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! DeepL
+||deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||www.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||www2.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||login-wall.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||w.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||s.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||dict.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||ita-free.www.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||write-free.www.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||experimentation.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||experimentation-grpc.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||ita-free.app.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||shield.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||ott.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||api-free.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||backend.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||clearance.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||errortracking.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||auth.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||oneshot-free.www.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||checkout.www.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||gtm.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||voice-proxy.www.deepl.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Deezer
+||deezer.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||www.deezer.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||payment.deezer.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Weather.com
+||weather.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||upsx.weather.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Google
+||api.fitbit.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||fitbit-pa.googleapis.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||fitbitvestibuleshim-pa.googleapis.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||fitbit.google.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||gemini.google.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||aistudio.google.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||generativelanguage.googleapis.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||aitestkitchen.withgoogle.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||aisandbox-pa.googleapis.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||webchannel-alkalimakersuite-pa.clients6.google.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||alkalimakersuite-pa.clients6.google.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||assistant-s3-pa.googleapis.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||proactivebackend-pa.googleapis.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||robinfrontend-pa.googleapis.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||o.pki.goog^$dnsrewrite=NOERROR;A;62.133.62.97
+||labs.google^$dnsrewrite=NOERROR;A;62.133.62.97
+||notebooklm.google.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||jules.google.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||stitch.withgoogle.com^$dnsrewrite=NOERROR;A;62.133.62.97
+
+
+! Claude
+||claude.ai^$dnsrewrite=NOERROR;A;193.233.112.68
+||console.anthropic.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||api.anthropic.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||platform.claude.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||a.claude.ai^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Trae.ai
+||trae-api-sg.mchost.guru^$dnsrewrite=NOERROR;A;193.233.112.68
+||api.trae.ai^$dnsrewrite=NOERROR;A;193.233.112.68
+||api-sg-central.trae.ai^$dnsrewrite=NOERROR;A;193.233.112.68
+||api16-normal-alisg.mchost.guru^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Linear
+||linear.app^$dnsrewrite=NOERROR;A;193.233.112.68
+||client-api.linear.app^$dnsrewrite=NOERROR;A;193.233.112.68
+||static.linear.app^$dnsrewrite=NOERROR;A;193.233.112.68
+||constellation.linear.app^$dnsrewrite=NOERROR;A;193.233.112.68
+||uploads.linear.app^$dnsrewrite=NOERROR;A;193.233.112.68
+||public.linear.app^$dnsrewrite=NOERROR;A;193.233.112.68
+||s.linear.app^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Windsurf
+||windsurf.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||codeium.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||server.codeium.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||web-backend.codeium.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||unleash.codeium.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||inference.codeium.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||windsurf-stable.codeium.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||windsurf-telemetry.codeium.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||marketplace.windsurf.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Twitch
+||usher.ttvnw.net^$dnsrewrite=NOERROR;A;193.233.112.68
+||gql.twitch.tv^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Manus
+||manus.im^$dnsrewrite=NOERROR;A;193.233.112.68
+||api.manus.im^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Notion
+||www.notion.so^$dnsrewrite=NOERROR;A;193.233.112.68
+||calendar.notion.so^$dnsrewrite=NOERROR;A;193.233.112.68
+||app.notion.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Canva
+||www.canva.com^$dnsrewrite=NOERROR;A;103.137.248.179
+||content-management-files.canva.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||static.canva.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Intel
+||www.intel.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Dell
+||www.dell.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! TikTok
+||www.tiktok.com^$dnsrewrite=NOERROR;A;62.133.62.97
+
+
+! Archive.org
+||web.archive.org^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! NVIDIA
+||developer.nvidia.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Parsec
+||builds.parsec.app^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Tria.ge
+||tria.ge^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Qwant
+||www.qwant.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! guidedhacking.com
+||guidedhacking.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Framer
+||framer.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Autodesk
+||accounts.autodesk.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||www.autodesk.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Pump.fun
+||pump.fun^$dnsrewrite=NOERROR;A;193.233.112.68
+||frontend-api-v3.pump.fun^$dnsrewrite=NOERROR;A;193.233.112.68
+||images.pump.fun^$dnsrewrite=NOERROR;A;193.233.112.67
+||swap-api.pump.fun^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Truth Social
+||truthsocial.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||static-assets-1.truthsocial.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Elgato
+||www.elgato.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Imgur
+||api.imgur.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Dyson
+||dyson.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||www.dyson.com^$dnsrewrite=NOERROR;A;193.233.112.68
+||www.dyson.fr^$dnsrewrite=NOERROR;A;62.133.62.97
+
+
+! Broadcom
+||profile.broadcom.com^$dnsrewrite=NOERROR;A;193.233.112.68
+
+
+! Patreon
+||patreon.com^$dnsrewrite=NOERROR;A;62.133.62.97
+||www.patreon.com^$dnsrewrite=NOERROR;A;62.133.62.97
+
+
+! End of dns.malw.link DNS rewrites
